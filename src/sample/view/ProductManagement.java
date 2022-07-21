@@ -18,7 +18,7 @@ public class ProductManagement {
 
     public static void main(String args[]) {
         I_Menu menu = new Menu();
-        menu.addItem("1. Add new candidate: ");
+        menu.addItem("1. Add new candidate");
         menu.addItem("2. Remove a candidate");
         menu.addItem("3. Update a candidate");
         menu.addItem("4. Sort list");

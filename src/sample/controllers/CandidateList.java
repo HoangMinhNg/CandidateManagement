@@ -107,8 +107,7 @@ public class CandidateList extends ArrayList<Candidate> implements I_List {
 
     @Override
     public void output() {
-        cand = new Candidate();
-        System.out.println(cand.showString());
+        System.out.println(this.toString());
     }
 
     @Override
